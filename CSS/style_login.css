@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma;
+    border-radius: 4px;
+}
+.main-content {
+    width: 30%;
+    height: auto;
+    border: 1px solid gray;
+    padding: 15px;
+    background-color: white;
+    margin: 0 auto;
+}
+.username {
+    height: 3em;
+    line-height: 3em;
+}
+.password {
+    height: 3em;
+    line-height: 3em;
+}
+.sign-in {
+    margin: 5px;
+}
+.footer {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.lost-password {
+    font-size: 15px;
+}
+body {
+    background-color: beige;
+}

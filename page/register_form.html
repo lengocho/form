@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Register Form</h1>
+    </div>
+    <div class="main-content">
+        <form action="" method="post" id="form">
+            <div class="row name">
+                    <div class="col-2 title">
+                        <label for="name"><strong>Name</strong></label>
+                    </div>
+                    <div class="col-3 firstName">
+                        <input type="text" name="firstName" style="width: 100%">
+                        <label for="firstName">First Name</label>
+                    </div>
+                    <div class="col-3 lastName">
+                        <input type="text" name="lastName" style="width: 100%">
+                        <label for="lastName">Last Name</label>
+                    </div>
+            </div>
+            <div class="row gender">
+                <div class="col-2 title">
+                    <label for="gender"><strong>Gender</strong></label>
+                </div>
+                <div class="col-6 gender">
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Others
+                </div>
+            </div>
+            <div class="row username">
+                <div class="col-2 title">
+                    <label for="username"><strong>Username</strong></label>
+                </div>
+                <div class="col-3 username">
+                    <input type="text" name="username" style="width: 100%">
+                </div>
+            </div>
+            <div class="row password">
+                <div class="col-2 title">
+                    <label for="password"><strong>Password</strong></label>
+                </div>
+                <div class="col-3 password">
+                    <input type="password" name="password" style="width: 100%">
+                </div>
+            </div>
+            <div class="row company">
+                    <div class="col-2 title">
+                        <label for="company"><strong>Company</strong></label>
+                    </div>
+                    <div class="col-6 company">
+                        <input type="text" name="company" style="width: 100%">
+                    </div>
+            </div>
+            <div class="row email">
+                <div class="col-2 title">
+                    <label for="email"><strong>Email</strong></label>
+                </div>
+                <div class="col-6 email">
+                    <input type="text" name="email" style="width: 74.5%">
+                    <select name="email">
+                        <option value="gmail">@gmail.com</option>
+                        <option value="yahoo">@yahoo.com</option>
+                        <option value="icloud">@icloud.com</option>
+                        <option value="outlook">@outlook.com</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row phone">
+                <div class="col-2 title">
+                    <label for="phone"><strong>Phone</strong></label>
+                </div>
+                <div class="col-2 area-code">
+                    <input type="text" name="area-code" style="width: 100%">
+                    <label for="area-code">Area Code</label>
+                </div>
+                <div class="col-4 phone-number">
+                    <input type="text" name="phone-number" style="width: 100%">
+                    <label for="phone-number">Phone Number</label>
+                </div>
+            </div>
+            <div class="row agreement">
+                <input type="checkbox" name="agreement">
+                I agreee all statement in <a href="#">Terms of services</a>
+            </div>
+
+                <button class="register" type="submit">Register</button>
+
+        </form>
+    </div>
+    </form>
+</body>
+</html>
